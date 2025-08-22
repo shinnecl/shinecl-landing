@@ -41,15 +41,15 @@ All colors MUST be HSL.
     --input: 150 20% 94%;
     --ring: 150 50% 70%;
 
-    /* Luxury Design Tokens - Better contrast */
-    --luxury-mint: 150 60% 60%;
-    --luxury-lavender: 260 50% 65%;
+    /* Luxury Design Tokens */
+    --luxury-mint: 150 50% 75%;
+    --luxury-lavender: 260 35% 80%;
     --luxury-dark: 215 25% 27%;
     --luxury-white: 0 0% 100%;
     
-    /* Gradients with high contrast */
-    --gradient-hero: linear-gradient(135deg, hsl(150 60% 60%), hsl(260 50% 65%));
-    --gradient-shine: linear-gradient(45deg, hsl(150 65% 55%), hsl(260 55% 60%));
+    /* Gradients with better contrast */
+    --gradient-hero: linear-gradient(135deg, hsl(150 50% 75%), hsl(260 35% 80%));
+    --gradient-shine: linear-gradient(45deg, hsl(150 55% 70%), hsl(260 40% 75%));
     
     /* Shadows */
     --shadow-luxury: 0 10px 40px -10px hsl(150 50% 88% / 0.3);

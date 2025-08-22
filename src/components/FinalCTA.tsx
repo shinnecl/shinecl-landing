@@ -3,7 +3,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 
 const FinalCTA = () => {
   const handleWhatsAppClick = () => {
-    const message = "¡Hola! Estoy lista para transformar mi sonrisa con shinne.cl ✨ Quiero agendar mi cita";
+    const message = "¡Hola! Estoy lista para transformar mi sonrisa con Shinne ✨ Quiero agendar mi cita";
     const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
