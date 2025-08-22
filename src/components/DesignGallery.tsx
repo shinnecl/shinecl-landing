@@ -39,7 +39,7 @@ const DesignGallery = () => {
           <div className="relative overflow-hidden rounded-3xl shadow-luxury max-w-4xl mx-auto">
             <img 
               src={crystalDesigns} 
-              alt="Galería de diseños de cristales dentales Shinne - Variedad de cristales premium"
+              alt="Galería de diseños de cristales dentales shinne.cl - Variedad de cristales premium"
               className="w-full h-auto object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-luxury-dark/20 to-transparent"></div>

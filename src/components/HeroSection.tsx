@@ -4,7 +4,7 @@ import { Sparkles } from "lucide-react";
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
-    const message = "Hola! Me interesa agendar una cita para cristales dentales en Shinne ✨";
+    const message = "Hola! Me interesa agendar una cita para cristales dentales en shinne.cl ✨";
     const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
@@ -64,7 +64,7 @@ const HeroSection = () => {
             <div className="relative overflow-hidden rounded-3xl shadow-luxury">
               <img 
                 src={heroImage} 
-                alt="Cristal dental premium Shinne - Sonrisa perfecta con cristal verde mint"
+                alt="Cristal dental premium shinne.cl - Sonrisa perfecta con cristal verde mint"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-luxury-mint/10 to-transparent"></div>
