@@ -1,7 +1,7 @@
 import { Smartphone, QrCode } from "lucide-react";
 
 const QRSection = () => {
-  const whatsappMessage = "Hola! Me interesa agendar una cita para cristales dentales en Shinne ✨";
+  const whatsappMessage = "Hola! Me interesa agendar una cita para cristales dentales en shinne.cl ✨";
   const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   
@@ -31,7 +31,7 @@ const QRSection = () => {
             <div className="bg-luxury-white p-6 rounded-2xl shadow-luxury">
               <img 
                 src={qrCodeUrl}
-                alt="Código QR para contactar Shinne por WhatsApp"
+                alt="Código QR para contactar shinne.cl por WhatsApp"
                 className="w-48 h-48 mx-auto"
               />
             </div>
