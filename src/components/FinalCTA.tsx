@@ -4,7 +4,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 const FinalCTA = () => {
   const handleWhatsAppClick = () => {
     const message = "¡Hola! Estoy lista para transformar mi sonrisa con shinne.cl ✨ Quiero agendar mi cita";
-    const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
+    const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -29,7 +29,7 @@ const FinalCTA = () => {
           <div className="space-y-4">
             <h2 className="text-4xl lg:text-6xl font-light text-luxury-dark">
               ¿Lista para{" "}
-              <span className="font-medium bg-gradient-to-r from-luxury-mint to-luxury-lavender bg-clip-text text-transparent">
+              <span className="gradient-text">
                 transformar
               </span>{" "}
               tu sonrisa?
@@ -69,9 +69,6 @@ const FinalCTA = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
-            <div className="text-sm text-muted-foreground">
-              O llámanos: +56 9 1234 5678
-            </div>
           </div>
 
           {/* Trust indicators */}

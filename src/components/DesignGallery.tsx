@@ -14,7 +14,7 @@ const DesignGallery = () => {
 
   const handleWhatsAppClick = () => {
     const message = "Hola! Me interesa conocer más sobre los diseños de cristales dentales ✨";
-    const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
+    const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -25,7 +25,7 @@ const DesignGallery = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-light text-luxury-dark mb-4">
             Encuentra tu{" "}
-            <span className="font-medium bg-gradient-to-r from-luxury-mint to-luxury-lavender bg-clip-text text-transparent">
+            <span className="gradient-text">
               Brillo Perfecto
             </span>
           </h2>

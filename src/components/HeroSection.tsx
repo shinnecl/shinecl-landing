@@ -5,7 +5,7 @@ import { Sparkles } from "lucide-react";
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
     const message = "Hola! Me interesa agendar una cita para cristales dentales en shinne.cl ✨";
-    const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
+    const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-light text-luxury-dark leading-tight">
                 Tu Sonrisa,{" "}
-                <span className="font-medium bg-gradient-to-r from-luxury-mint to-luxury-lavender bg-clip-text text-transparent">
+                <span className="gradient-text">
                   Tu Joya
                 </span>
               </h1>

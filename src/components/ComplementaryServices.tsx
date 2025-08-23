@@ -21,7 +21,7 @@ const ComplementaryServices = () => {
 
   const handleWhatsAppClick = (service: string) => {
     const message = `Hola! Me interesa el servicio: ${service} ✨`;
-    const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
+    const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -32,7 +32,7 @@ const ComplementaryServices = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-light text-luxury-dark mb-4">
             Prepara tu Sonrisa para el{" "}
-            <span className="font-medium bg-gradient-to-r from-luxury-mint to-luxury-lavender bg-clip-text text-transparent">
+            <span className="gradient-text">
               Máximo Impacto
             </span>
           </h2>

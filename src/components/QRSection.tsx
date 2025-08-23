@@ -2,7 +2,7 @@ import { Smartphone, QrCode } from "lucide-react";
 
 const QRSection = () => {
   const whatsappMessage = "Hola! Me interesa agendar una cita para cristales dentales en shinne.cl ✨";
-  const phoneNumber = "56912345678"; // Replace with actual WhatsApp number
+  const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   
   // Generate QR code URL using qr-server.com service
@@ -16,7 +16,7 @@ const QRSection = () => {
             <QrCode className="w-6 h-6 text-luxury-mint" />
             <h3 className="text-2xl font-light text-luxury-dark">
               Escanea y{" "}
-              <span className="font-medium bg-gradient-to-r from-luxury-mint to-luxury-lavender bg-clip-text text-transparent">
+              <span className="gradient-text">
                 Agenda Rápido
               </span>
             </h3>

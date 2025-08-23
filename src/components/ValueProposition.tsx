@@ -25,7 +25,7 @@ const ValueProposition = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-light text-luxury-dark mb-4">
             ¿Por qué shinne.cl es tu{" "}
-            <span className="font-medium bg-gradient-to-r from-luxury-mint to-luxury-lavender bg-clip-text text-transparent">
+            <span className="gradient-text">
               opción segura?
             </span>
           </h2>
