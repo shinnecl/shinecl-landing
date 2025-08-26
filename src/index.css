@@ -170,7 +170,34 @@ All colors MUST be HSL.
     
     /* Tighter spacing for very small screens */
     h1, h2, h3 {
-      line-height: 1.2;
+      line-height: 1.1;
+    }
+    
+    /* Hero section specific fixes for small screens */
+    .hero-content {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    
+    /* Ensure minimum touch targets even on very small screens */
+    button, .btn, [role="button"] {
+      min-height: 44px;
+      padding: 0.75rem 1rem;
+    }
+  }
+  
+  /* Additional mobile hero improvements */
+  @media (max-width: 768px) {
+    /* Better vertical rhythm on mobile hero */
+    .min-h-screen {
+      min-height: 100vh;
+      min-height: 100dvh; /* Dynamic viewport height for mobile browsers */
+    }
+    
+    /* Ensure hero content doesn't get cut off */
+    .hero-section {
+      padding-top: max(env(safe-area-inset-top), 1rem);
+      padding-bottom: max(env(safe-area-inset-bottom), 1rem);
     }
   }
 }
