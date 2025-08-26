@@ -21,7 +21,7 @@ const ComplementaryServices = () => {
 
   const handleWhatsAppClick = (service: string) => {
     const message = `Hola! Me interesa el servicio: ${service} ✨`;
-    const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
+    const phoneNumber = "56949615790"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };

@@ -4,7 +4,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 const FinalCTA = () => {
   const handleWhatsAppClick = () => {
     const message = "¡Hola! Estoy lista para transformar mi sonrisa con shinne.cl ✨ Quiero agendar mi cita";
-    const phoneNumber = "56933445566"; // Replace with actual WhatsApp number
+    const phoneNumber = "56949615790"; // Replace with actual WhatsApp number
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
