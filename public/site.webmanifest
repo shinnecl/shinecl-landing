@@ -1,0 +1,21 @@
+{
+  "name": "Shinne - Cristales Dentales Premium",
+  "short_name": "Shinne",
+  "description": "Cristales dentales premium aplicados por dentistas profesionales en Vitacura",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#00C853",
+  "background_color": "#E0F2F1",
+  "display": "standalone",
+  "start_url": "/"
+}
