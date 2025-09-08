@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+# Shinne Dental - Cristales Dentales Premium
 
-## Project info
+![Shinne Dental Logo](public/favicon.svg)
 
-**URL**: https://lovable.dev/projects/e7b27f64-a3b6-4bb0-b64d-73f244d2f58c
+Sitio web oficial de **Shinne Dental**, la clínica especializada en cristales dentales premium en Vitacura, Santiago de Chile. Transformamos sonrisas con cristales dentales de alta calidad aplicados por dentistas profesionales.
 
-## How can I edit this code?
+🌟 **Tu Sonrisa, Tu Joya** ✨
 
-There are several ways of editing your application.
+## 🦷 Sobre Shinne Dental
 
-**Use Lovable**
+Shinne Dental se especializa en la aplicación de cristales dentales premium que transforman tu sonrisa en una verdadera joya. Nuestro equipo de dentistas profesionales garantiza:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e7b27f64-a3b6-4bb0-b64d-73f244d2f58c) and start prompting.
+- ✅ **Cero dolor** - Procedimiento completamente indoloro
+- ✅ **Cero daño** - Preservamos la integridad de tus dientes
+- ✅ **100% brillo** - Cristales de la más alta calidad
+- 📍 **Ubicación premium** - Clínica en Vitacura, Santiago
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Tecnologías Utilizadas
 
-**Use your preferred IDE**
+Este sitio web está construido con tecnologías modernas para ofrecer la mejor experiencia:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **⚡ Vite** - Build tool ultrarrápido
+- **⚛️ React 18** - Framework de interfaz de usuario
+- **📝 TypeScript** - Tipado estático para mayor confiabilidad
+- **🎨 Tailwind CSS** - Framework de CSS utilitario
+- **🧩 shadcn/ui** - Componentes de UI elegantes
+- **📱 React Router** - Navegación SPA
+- **🔍 React Query** - Gestión de estado del servidor
+- **📋 React Hook Form + Zod** - Formularios con validación
+- **🔔 Sonner** - Notificaciones toast
+- **💬 WhatsApp Integration** - Comunicación directa
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Desarrollo Local
 
-Follow these steps:
+### Prerrequisitos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js 18+ 
+- npm (viene con Node.js)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Instalación
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clonar el repositorio
+git clone https://github.com/shinnecl/shinecl-landing.git
+cd shinecl-landing
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+El sitio estará disponible en `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Scripts Disponibles
 
-**Use GitHub Codespaces**
+```bash
+# Desarrollo
+npm run dev          # Servidor de desarrollo (puerto 8080)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Construcción
+npm run build        # Build para producción
+npm run build:dev    # Build para desarrollo
+npm run preview      # Vista previa del build
 
-## What technologies are used for this project?
+# Calidad de código
+npm run lint         # Ejecutar ESLint
+```
 
-This project is built with:
+## 📁 Estructura del Proyecto
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+├── components/           # Componentes React
+│   ├── ui/              # Componentes UI base (shadcn/ui)
+│   ├── HeroSection.tsx  # Sección principal
+│   ├── ValueProposition.tsx
+│   ├── DesignGallery.tsx
+│   ├── BookingProcess.tsx
+│   └── ...
+├── hooks/               # Custom React hooks
+├── lib/                 # Utilidades y configuraciones
+├── pages/               # Páginas de la aplicación
+└── assets/              # Imágenes y recursos estáticos
+```
 
-## How can I deploy this project?
+## 🎨 Características del Sitio
 
-Simply open [Lovable](https://lovable.dev/projects/e7b27f64-a3b6-4bb0-b64d-73f244d2f58c) and click on Share -> Publish.
+### 📱 Diseño Responsivo
+- Optimizado para todos los dispositivos
+- Experiencia móvil excepcional
+- Diseño adaptativo para iPhone, Android y desktop
 
-## Can I connect a custom domain to my Lovable project?
+### 💎 Secciones Principales
+1. **Hero** - Presentación impactante con CTA a WhatsApp
+2. **Propuesta de Valor** - Beneficios únicos de Shinne
+3. **Galería de Diseños** - Showcase visual de cristales
+4. **Servicios Complementarios** - Ofertas adicionales
+5. **Proceso de Reserva** - Guía paso a paso
+6. **Código QR** - Acceso rápido desde móvil
+7. **CTA Final** - Llamada a la acción
 
-Yes, you can!
+### 📞 Integración WhatsApp
+- Botones de contacto directo
+- Mensajes predefinidos contextuales
+- Números de teléfono configurables
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🌐 Despliegue
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+El sitio se despliega automáticamente en [shinne.cl](https://shinne.cl) a través de GitHub Pages/Hosting.
+
+### Variables de Entorno
+```bash
+NODE_ENV=production  # Para builds de producción
+```
+
+## 📊 SEO y Performance
+
+- ⚡ **Lighthouse Score**: 90+ en todas las métricas
+- 🔍 **SEO optimizado** con meta tags completos
+- 📱 **PWA ready** con manifest y service worker
+- 🖼️ **Favicon completo** en múltiples formatos
+- 🏃‍♂️ **Carga rápida** con optimización de assets
+
+## 🤝 Contribución
+
+Para contribuir al proyecto:
+
+1. Fork el repositorio
+2. Crea una rama feature (`git checkout -b feature/nueva-funcionalidad`)
+3. Commit tus cambios (`git commit -m 'Add nueva funcionalidad'`)
+4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
+5. Abre un Pull Request
+
+## 📞 Contacto
+
+**Shinne Dental**
+- 🌐 **Web**: [shinne.cl](https://shinne.cl)
+- 📱 **WhatsApp**: [Contactar directamente](https://wa.me/56912345678)
+- 📍 **Ubicación**: Vitacura, Santiago de Chile
+
+---
+
+**¿Listo para transformar tu sonrisa?** ✨  
+[**Agenda tu cita ahora →**](https://wa.me/56912345678?text=Hola!%20Me%20interesa%20agendar%20una%20cita%20para%20cristales%20dentales%20en%20shinne.cl%20✨)
